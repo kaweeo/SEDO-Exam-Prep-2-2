@@ -3,8 +3,9 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/kaweeo/SEDO-Exam-prep-2-1.git'
+                 git branch: 'main', url: 'https://github.com/kaweeo/SEDO-Exam-Prep-2-2.git'
             }
+            
         }
         stage('Setup .NET') {
             steps {
